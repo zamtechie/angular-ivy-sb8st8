@@ -1,0 +1,7 @@
+<div class="container">
+  <ul>
+    <li *ngFor="let todo of todos" (click)="viewDetail(todo.id)">
+      {{ todo.title }}
+    </li>
+  </ul>
+</div>
